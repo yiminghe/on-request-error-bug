@@ -1,17 +1,16 @@
 import { type Instrumentation } from 'next'
-const {log}=console;
+import { registerOTel } from '@vercel/otel';
 
 export const onRequestError: Instrumentation.onRequestError = async (
   err,
   request,
   context
 ) => {
-  if (process.env.NEXT_RUNTIME === 'nodejs') {
-  log('onRequestError')
-  }
+  console.log('onRequestError');
 }
 
 export function register() {
-  console.log=()=>{};
-  console.error=()=>{};
+  registerOTel({
+    serviceName:'bug'
+  })
 }

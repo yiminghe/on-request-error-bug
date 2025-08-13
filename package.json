@@ -6,7 +6,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "15.4.6",
+    "@vercel/otel": "^1.13.0",
+    "next": "canary",
     "react": "19.1.1",
     "react-dom": "19.1.1"
   },
