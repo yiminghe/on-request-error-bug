@@ -5,5 +5,17 @@ export const onRequestError: Instrumentation.onRequestError = async (
   request,
   context
 ) => {
+  console.log();
+  console.log();
+  console.log();
+  console.log();
+  console.log();
+  console.log();
   console.log('onRequestError');
+  console.log();
+  console.log();
+  console.log();
+  console.log();
+  console.log();
+  console.log();
 }

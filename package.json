@@ -6,10 +6,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "@vercel/otel": "^1.13.0",
     "next": "canary",
-    "react": "19.1.1",
-    "react-dom": "19.1.1"
+    "react": "19.x",
+    "react-dom": "19.x"
   },
   "packageManager": "pnpm@10.17.1",
   "devDependencies": {

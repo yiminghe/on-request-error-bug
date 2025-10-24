@@ -6,5 +6,4 @@ export default function middleware() {
 }
 
 export const config = {
-  runtime: 'nodejs',
 };
